@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ======= common design ========== */
+.donate_btn {
+    width: 160px;
+    height: 56px;
+    display: block;
+    background-color: #FF5959;
+    line-height: 56px;
+    font-weight: 600;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: transparent;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner_Top_text_box,.donate_amount_title_box,.donate_form,.our_donate_plan_title_box {
+    width: 877px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 18px;
+    padding: 0 65px;
+    color: #fff;
+    line-height: 28px;
+}
+.subtitle_plus{
+    color:#707070;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 125px;
+    margin-bottom: 14px;
+}
+
+/* -------- start banner section ------- */
+.banner_top_area {
+    background-image: url(./images/donation13.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 669px;
+    background-position: center center;
+}
+
+.banner_title {
+    font-size: 65px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 165px;
+}
+
+
+
+/* ------- end banner section ------- */
+
+/*  ----------start donate amount  --------*/
+.amount_box {
+    width: 135px;
+    height: 125px;
+    background-color: #FAFAFA;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 125px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.amount_box.active {
+    background-color: #FFEEEE;
+    color:#FF5959;
+    border: 2px solid #FF5959;
+}
+
+.amount_box_area {
+    justify-content: center;
+    gap: 20px;
+    color: #707070;
+    margin-top: 70px;
+}
+
+input[type="number"] {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #B3B3B3;
+    display: block;
+    width: 95%;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    margin-top: 95px;
+}
+/*  ----------end donate amount  --------*/
+
+/* -------------- start Our_donate_plan -----------*/
+  /* --------------end Our_donate_plan ------------*/
