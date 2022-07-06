@@ -9,7 +9,7 @@
 .donate_btn {
     width: 160px;
     height: 56px;
-    background-color: #FF5959;
+    background-color: #FF5722;
     line-height: 56px;
     font-weight: 600;
     border-radius: 5px;
@@ -24,6 +24,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+.heading_color{color:#FF5722}
 
 .banner_Top_text_box,.donate_amount_title_box,.donate_form,.our_donate_plan_title_box,.our_volunteer_group_title_box {
     width: 877px;
@@ -87,8 +88,8 @@
 }
 .amount_box.active {
     background-color: #FFEEEE;
-    color:#FF5959;
-    border: 2px solid #FF5959;
+    color:#FF5722;
+    border: 2px solid #FF5722;
 }
 
 .amount_box_area {
@@ -114,6 +115,7 @@ input[type="number"] {
 .donate_btn.donate_btn_plus {
     width: 170px;
     line-height: normal;
+    font-size: 14px;
 }
 /*  ----------end donate amount  --------*/
 
@@ -186,7 +188,7 @@ input[type="number"] {
     justify-content: center;
     align-items: center;
     margin: 45px 0 115px;
-    font-weight: 500;
+   
 }
 
 input[type="text"] {
@@ -197,14 +199,16 @@ input[type="text"] {
     color: #AA9F9F;
     width: 245px;
     outline: none;
+    font-weight: 500;
 }
 
 button {
     padding: 16px 40px;
     border: none;
     color: #fff;
-    background-color: #FF5959;
+    background-color: #FF5722;
     margin: -5px;
+    font-weight: 500;
 }
   /* --------------end get_out_update ------------*/
 
@@ -220,6 +224,6 @@ footer h2 {
     margin-bottom: 25px;
     font-size: 36px;
     font-style: italic;
-    color: #FF5959;
+    color: #FF5722;
     font-family: 'Lobster', cursive;
 }
