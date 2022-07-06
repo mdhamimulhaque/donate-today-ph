@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -8,7 +9,6 @@
 .donate_btn {
     width: 160px;
     height: 56px;
-    display: block;
     background-color: #FF5959;
     line-height: 56px;
     font-weight: 600;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
 }
 
-.banner_Top_text_box,.donate_amount_title_box,.donate_form,.our_donate_plan_title_box {
+.banner_Top_text_box,.donate_amount_title_box,.donate_form,.our_donate_plan_title_box,.our_volunteer_group_title_box {
     width: 877px;
     margin: 0 auto;
     text-align: center;
@@ -110,7 +110,116 @@ input[type="number"] {
     padding-bottom: 25px;
     margin-top: 95px;
 }
+
+.donate_btn.donate_btn_plus {
+    width: 170px;
+    line-height: normal;
+}
 /*  ----------end donate amount  --------*/
 
 /* -------------- start Our_donate_plan -----------*/
+.our_donate_Plan_area{
+   width:1150px;
+   margin: 0 auto;
+}
+.our_donate_plan_card_box {
+    height: 340px;
+    width: 360px;
+    padding: 50px 20px;
+}
+.box_1{ background-color:#EDF5F6;}
+.box_2{ background-color: #FFEEEE;}
+.box_3{ background-color: #FFF4D6;}
+
+.donate_card_title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 21px 0 26px;
+    color: #121212;
+}
+.donate_card_text {
+    color: #707070;
+}
+.our_donate_plan_caed_area {
+    gap: 25px;
+    margin-top: 40px;
+}
+
   /* --------------end Our_donate_plan ------------*/
+
+  /* --------------start our_volunteer_group ------------*/
+  .our_volunteer_group_card_area {
+    justify-content: center;
+    margin-top: 45px;
+}
+ .our_volunteer_group_box{
+    text-align: center;
+ }
+  .our_volunteer_group_img{
+    width: 360px;
+  }
+  .our_volunteer_group_img img{
+    width: 100%;
+  }
+  .our_volunteer_group_title{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 21px 0 10px;
+    color: #121212;
+  }
+  /* --------------end our_volunteer_group ------------*/
+
+  /* --------------start get_out_update ------------*/
+  section.get_update {
+    width: 810px;
+    margin: 0 auto;
+}
+
+.get_update_title_box {
+    text-align: center;
+}
+
+.get_update_form_area {   
+    height: 200px;
+    background-color: #FFEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 0 115px;
+    font-weight: 500;
+}
+
+input[type="text"] {
+    height: 48px;
+    padding-left: 20px;
+    border: none;
+    background: #D9D9D9;
+    color: #AA9F9F;
+    width: 245px;
+    outline: none;
+}
+
+button {
+    padding: 16px 40px;
+    border: none;
+    color: #fff;
+    background-color: #FF5959;
+    margin: -5px;
+}
+  /* --------------end get_out_update ------------*/
+
+  /* ========= footer ========== */
+  footer {
+    padding: 45px 0 40px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 25px;
+    font-size: 36px;
+    font-style: italic;
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+}
